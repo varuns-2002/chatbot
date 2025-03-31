@@ -4,9 +4,7 @@ from bs4 import BeautifulSoup  # Ensure BeautifulSoup is imported for scraping
 
 app = Flask(__name__)
 
-# API Keys (Replace with your actual keys)
-SERPAPI_KEY = "08f0afd6411cdc029c0025538b2956476ae19da6db7545c6811fea35f0cf15d6"
-BLACKBOX_API_KEY = "7ebc3c5ae2msh87aa52832a6f16dp1ff018jsnfc8894938279"  # Replace with your actual Blackbox API key
+
 
 def search_web(query):
     """Fetches top search results from SerpAPI"""
